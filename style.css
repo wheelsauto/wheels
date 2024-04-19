@@ -240,6 +240,55 @@ overflow: hidden;
       .navlist.open{
           right: 0;
       }
+      .links{
+        gap: 10px;
+        display: none;
+      }
+      .foot{
+        padding: 0%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
   }
-  
+  @media (height<755px){
+    .content{
+      padding-top: 50px;
+    }
+    model-viewer{
+      height: 300px;
+      padding-bottom: 15%;
+    }
+    }
+    @media (max-height :750px){
+      .content{
+        padding-top: 70px;
+      }
+      model-viewer{
+        height: 300px;
+        padding-bottom: 15%;
+      }
+      footer{
+      height: 200px;
+      }
+      .foot{
+        gap: 10px;
+      }
+      }
+   
+        @media (max-height :884px){
+          .content{
+            padding-top: 100px;
+          }
+          model-viewer{
+            height: 300px;
+            padding-bottom: 15%;
+          }
+          footer{
+          height: 170px;
+          
+          }
+          
+          }
+    
   
